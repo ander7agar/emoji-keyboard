@@ -15,7 +15,7 @@ import com.gotcreations.emojilibrary.R;
 import com.gotcreations.emojilibrary.util.EmojiUtil;
 import com.gotcreations.emojilibrary.util.SoftKeyboardUtil;
 
-public class EmojiEditText extends android.support.v7.widget.AppCompatEditText {
+public class EmojiEditText extends androidx.appcompat.widget.AppCompatEditText {
 
     public static final String TAG = "EmojiEditText";
 

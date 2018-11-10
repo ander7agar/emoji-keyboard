@@ -1,7 +1,8 @@
 package com.gotcreations.emojilibrary.adapter;
 
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 import android.view.ViewGroup;
 
 import com.gotcreations.emojilibrary.controller.emoji_pages.FragmentEmojiNature;
@@ -64,7 +65,7 @@ public class EmojiTabAdapter extends FragmentPagerAdapter {
     }
 
     @Override
-    public android.support.v4.app.Fragment getItem(int position) {
+    public Fragment getItem(int position) {
         switch (position) {
             case 0:
                 return FRAGMENT_EMOJI_RECENTS;

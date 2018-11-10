@@ -1,8 +1,8 @@
 package com.gotcreations.emojilibrary.model.layout;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.app.AppCompatDelegate;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatDelegate;
 
 /**
  * Created by edgar on 18/02/2016.

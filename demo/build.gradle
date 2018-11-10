@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 28
+    buildToolsVersion '28.0.3'
 
     defaultConfig {
         applicationId "com.gotcreations.emojikeyboard"
         minSdkVersion 14
-        targetSdkVersion 25
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         multiDexEnabled true
@@ -24,12 +24,12 @@ android {
 }
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:25.3.1'
-    compile 'com.android.support:design:25.3.1'
-    compile 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
-    compile 'com.mikhaellopez:circularimageview:2.0.2'
-    compile 'com.squareup.picasso:picasso:2.5.2'
-    compile project(':emoji-library')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'com.google.android.material:material:1.1.0-alpha01'
+    implementation 'com.ogaclejapan.smarttablayout:library:1.6.0@aar'
+    implementation 'com.mikhaellopez:circularimageview:2.0.2'
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation project(':emoji-library')
 }

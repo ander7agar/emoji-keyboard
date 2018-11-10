@@ -2,7 +2,7 @@ package com.gotcreations.emojilibrary.controller;
 
 import android.content.res.ColorStateList;
 import android.os.Handler;
-import android.support.design.widget.FloatingActionButton;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
